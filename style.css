@@ -1,35 +1,131 @@
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 /* common classes */
 h1 {
-    font-size: 100px ;
+  font-size: 65px;
+  line-height: 1.4em;
 }
 h2 {
-    font-size: 60px ;
-    color: rgb(70, 70, 70);
+  font-size: 60px;
+  color: rgb(139, 134, 134);
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 30px;
 }
 p {
-    font-size: 18px;
-    color: rgb(46, 46, 46);
+  font-size: 18px;
+  color: rgb(88, 88, 88);
+  text-align: justify;
+  line-height: 1.5em;
+  font-weight: 500;
 }
 .orange {
-    color: tomato;
+  color: tomato;
+}
+.ase {
+  color: rgb(77, 72, 72);
 }
 .half-width {
-    width: 50%;
+  width: 50%;
 }
-.display-flex   {
-    display: flex;
+.display-flex {
+  display: flex;
 }
 a {
-    text-decoration: none;
-    padding: 10px 20px ;
-    background-image:  linear-gradient( 50deg , rgb(201, 75, 17), tomato);
-    color: white;
-    font-weight: 600;
-    border-radius: 20px;
-
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(50deg, rgb(201, 75, 17), tomato);
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgb(201, 75, 17);
+  margin-top: 30px;
+  display: inline-block;
+}
+input {
+  border-radius: 20px;
+  font-weight: 600;
+  display: block;
+  font-size: 18px;
+  padding: 10px 80px 10px 10px;
+  width: 50%;
+  margin: auto;
+}
+/* Top banner section */
+.top-banner {
+  margin: 70px 0;
+  padding: 20px;
+}
+.top-banner-sclogan {
+  padding: 100px 20px 0 70px;
+}
+.top-banner .top-banner-image img {
+  width: 100%;
 }
 
+/* About me section  */
+.about-me-section {
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+}
+.about-me-image img {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 30%;
+}
+.about-me-details {
+  padding: 5%;
+}
+
+/* Recipie Section  */
+.recipies-section {
+}
+.recipies-section .recipies-details {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.recipie-manu {
+  margin: 70px 5%;
+}
+.recipie-manu .recipie-card {
+  width: 30%;
+  padding: 20px 2%;
+  box-shadow: 5px 5px 30px rgb(95, 94, 94);
+  border-radius: 25px;
+  margin: 10px 3%;
+}
+.recipie-card img {
+  width: 100%;
+}
+
+/* Subscribe Section  */
+.subscribe {
+  background-image: url(images/Frame\ 58.jpg);
+  padding: 20px 0;
+  background-repeat: no-repeat;
+}
+.daliy-tips-sub {
+  text-align: center;
+  margin: 50px auto;
+  width: 50%;
+}
+.daliy-tips-sub p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Footer Section  */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0 80px 0;
+}
+footer p {
+  text-align: center;
+}
