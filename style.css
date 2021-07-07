@@ -84,8 +84,6 @@ input {
 }
 
 /* Recipie Section  */
-.recipies-section {
-}
 .recipies-section .recipies-details {
   text-align: center;
   width: 50%;
@@ -107,21 +105,21 @@ input {
 
 /* Social Total */
 .social-total .yt-in-dr {
-    margin: 100px 8%;
-    box-shadow: 2px 2px 20px rgb(155, 153, 153);
-    border-radius: 25px;
+  margin: 100px 8%;
+  box-shadow: 2px 2px 20px rgb(155, 153, 153);
+  border-radius: 25px;
 }
 .social-total .card {
-    width: 30%;
-    padding: 20px 2%;
-    margin: 10px 3%;
-    text-align: center ;
+  width: 30%;
+  padding: 20px 2%;
+  margin: 10px 3%;
+  text-align: center;
 }
 .card p {
-    text-align: center;
+  text-align: center;
 }
 .card h4 {
-    margin-bottom: 10px ;
+  margin-bottom: 10px;
 }
 
 /* Subscribe Section  */
