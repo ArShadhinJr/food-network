@@ -75,11 +75,12 @@ input {
 }
 .about-me-image img {
   width: 50%;
-  padding-top: 50px;
+  padding-top: 94px;
+  padding-bottom: 0px;
   padding-left: 30%;
 }
 .about-me-details {
-  padding: 5%;
+  padding: 8px 5% 8px 8px;
 }
 
 /* Recipie Section  */
@@ -96,12 +97,31 @@ input {
 .recipie-manu .recipie-card {
   width: 30%;
   padding: 20px 2%;
-  box-shadow: 5px 5px 30px rgb(95, 94, 94);
+  box-shadow: 2px 2px 20px rgb(95, 94, 94);
   border-radius: 25px;
   margin: 10px 3%;
 }
 .recipie-card img {
   width: 100%;
+}
+
+/* Social Total */
+.social-total .yt-in-dr {
+    margin: 100px 8%;
+    box-shadow: 2px 2px 20px rgb(155, 153, 153);
+    border-radius: 25px;
+}
+.social-total .card {
+    width: 30%;
+    padding: 20px 2%;
+    margin: 10px 3%;
+    text-align: center ;
+}
+.card p {
+    text-align: center;
+}
+.card h4 {
+    margin-bottom: 10px ;
 }
 
 /* Subscribe Section  */
@@ -124,7 +144,7 @@ input {
 footer {
   background-color: black;
   text-align: center;
-  padding: 40px 0 80px 0;
+  padding: 10px 0 100px 0;
 }
 footer p {
   text-align: center;
